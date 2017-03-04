@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF44B5581E6AC9F000243FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF44B5571E6AC9F000243FEC /* main.m */; };
+		DF44B55B1E6AC9F000243FEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF44B55A1E6AC9F000243FEC /* AppDelegate.m */; };
+		DF44B55E1E6AC9F000243FEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF44B55D1E6AC9F000243FEC /* ViewController.m */; };
+		DF44B5611E6AC9F000243FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF44B55F1E6AC9F000243FEC /* Main.storyboard */; };
+		DF44B5631E6AC9F000243FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF44B5621E6AC9F000243FEC /* Assets.xcassets */; };
+		DF44B5661E6AC9F000243FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF44B5641E6AC9F000243FEC /* LaunchScreen.storyboard */; };
+		DF44B5711E6AC9F000243FEC /* GemNSOperationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF44B5701E6AC9F000243FEC /* GemNSOperationDemoTests.m */; };
+		DF44B57C1E6AC9F000243FEC /* GemNSOperationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF44B57B1E6AC9F000243FEC /* GemNSOperationDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF44B56D1E6AC9F000243FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF44B54B1E6AC9F000243FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF44B5521E6AC9F000243FEC;
+			remoteInfo = GemNSOperationDemo;
+		};
+		DF44B5781E6AC9F000243FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF44B54B1E6AC9F000243FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF44B5521E6AC9F000243FEC;
+			remoteInfo = GemNSOperationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF44B5531E6AC9F000243FEC /* GemNSOperationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemNSOperationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF44B5571E6AC9F000243FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF44B5591E6AC9F000243FEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF44B55A1E6AC9F000243FEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF44B55C1E6AC9F000243FEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF44B55D1E6AC9F000243FEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF44B5601E6AC9F000243FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF44B5621E6AC9F000243FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF44B5651E6AC9F000243FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF44B5671E6AC9F000243FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF44B56C1E6AC9F000243FEC /* GemNSOperationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemNSOperationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF44B5701E6AC9F000243FEC /* GemNSOperationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemNSOperationDemoTests.m; sourceTree = "<group>"; };
+		DF44B5721E6AC9F000243FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF44B5771E6AC9F000243FEC /* GemNSOperationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemNSOperationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF44B57B1E6AC9F000243FEC /* GemNSOperationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemNSOperationDemoUITests.m; sourceTree = "<group>"; };
+		DF44B57D1E6AC9F000243FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF44B5501E6AC9F000243FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44B5691E6AC9F000243FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44B5741E6AC9F000243FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF44B54A1E6AC9F000243FEC = {
+			isa = PBXGroup;
+			children = (
+				DF44B5551E6AC9F000243FEC /* GemNSOperationDemo */,
+				DF44B56F1E6AC9F000243FEC /* GemNSOperationDemoTests */,
+				DF44B57A1E6AC9F000243FEC /* GemNSOperationDemoUITests */,
+				DF44B5541E6AC9F000243FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF44B5541E6AC9F000243FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF44B5531E6AC9F000243FEC /* GemNSOperationDemo.app */,
+				DF44B56C1E6AC9F000243FEC /* GemNSOperationDemoTests.xctest */,
+				DF44B5771E6AC9F000243FEC /* GemNSOperationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF44B5551E6AC9F000243FEC /* GemNSOperationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DF44B5591E6AC9F000243FEC /* AppDelegate.h */,
+				DF44B55A1E6AC9F000243FEC /* AppDelegate.m */,
+				DF44B55C1E6AC9F000243FEC /* ViewController.h */,
+				DF44B55D1E6AC9F000243FEC /* ViewController.m */,
+				DF44B55F1E6AC9F000243FEC /* Main.storyboard */,
+				DF44B5621E6AC9F000243FEC /* Assets.xcassets */,
+				DF44B5641E6AC9F000243FEC /* LaunchScreen.storyboard */,
+				DF44B5671E6AC9F000243FEC /* Info.plist */,
+				DF44B5561E6AC9F000243FEC /* Supporting Files */,
+			);
+			path = GemNSOperationDemo;
+			sourceTree = "<group>";
+		};
+		DF44B5561E6AC9F000243FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF44B5571E6AC9F000243FEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF44B56F1E6AC9F000243FEC /* GemNSOperationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF44B5701E6AC9F000243FEC /* GemNSOperationDemoTests.m */,
+				DF44B5721E6AC9F000243FEC /* Info.plist */,
+			);
+			path = GemNSOperationDemoTests;
+			sourceTree = "<group>";
+		};
+		DF44B57A1E6AC9F000243FEC /* GemNSOperationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF44B57B1E6AC9F000243FEC /* GemNSOperationDemoUITests.m */,
+				DF44B57D1E6AC9F000243FEC /* Info.plist */,
+			);
+			path = GemNSOperationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF44B5521E6AC9F000243FEC /* GemNSOperationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF44B5801E6AC9F000243FEC /* Build configuration list for PBXNativeTarget "GemNSOperationDemo" */;
+			buildPhases = (
+				DF44B54F1E6AC9F000243FEC /* Sources */,
+				DF44B5501E6AC9F000243FEC /* Frameworks */,
+				DF44B5511E6AC9F000243FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemNSOperationDemo;
+			productName = GemNSOperationDemo;
+			productReference = DF44B5531E6AC9F000243FEC /* GemNSOperationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF44B56B1E6AC9F000243FEC /* GemNSOperationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF44B5831E6AC9F000243FEC /* Build configuration list for PBXNativeTarget "GemNSOperationDemoTests" */;
+			buildPhases = (
+				DF44B5681E6AC9F000243FEC /* Sources */,
+				DF44B5691E6AC9F000243FEC /* Frameworks */,
+				DF44B56A1E6AC9F000243FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF44B56E1E6AC9F000243FEC /* PBXTargetDependency */,
+			);
+			name = GemNSOperationDemoTests;
+			productName = GemNSOperationDemoTests;
+			productReference = DF44B56C1E6AC9F000243FEC /* GemNSOperationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF44B5761E6AC9F000243FEC /* GemNSOperationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF44B5861E6AC9F000243FEC /* Build configuration list for PBXNativeTarget "GemNSOperationDemoUITests" */;
+			buildPhases = (
+				DF44B5731E6AC9F000243FEC /* Sources */,
+				DF44B5741E6AC9F000243FEC /* Frameworks */,
+				DF44B5751E6AC9F000243FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF44B5791E6AC9F000243FEC /* PBXTargetDependency */,
+			);
+			name = GemNSOperationDemoUITests;
+			productName = GemNSOperationDemoUITests;
+			productReference = DF44B5771E6AC9F000243FEC /* GemNSOperationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF44B54B1E6AC9F000243FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GemShi;
+				TargetAttributes = {
+					DF44B5521E6AC9F000243FEC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DF44B56B1E6AC9F000243FEC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF44B5521E6AC9F000243FEC;
+					};
+					DF44B5761E6AC9F000243FEC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF44B5521E6AC9F000243FEC;
+					};
+				};
+			};
+			buildConfigurationList = DF44B54E1E6AC9F000243FEC /* Build configuration list for PBXProject "GemNSOperationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF44B54A1E6AC9F000243FEC;
+			productRefGroup = DF44B5541E6AC9F000243FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF44B5521E6AC9F000243FEC /* GemNSOperationDemo */,
+				DF44B56B1E6AC9F000243FEC /* GemNSOperationDemoTests */,
+				DF44B5761E6AC9F000243FEC /* GemNSOperationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF44B5511E6AC9F000243FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF44B5661E6AC9F000243FEC /* LaunchScreen.storyboard in Resources */,
+				DF44B5631E6AC9F000243FEC /* Assets.xcassets in Resources */,
+				DF44B5611E6AC9F000243FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44B56A1E6AC9F000243FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44B5751E6AC9F000243FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF44B54F1E6AC9F000243FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF44B55E1E6AC9F000243FEC /* ViewController.m in Sources */,
+				DF44B55B1E6AC9F000243FEC /* AppDelegate.m in Sources */,
+				DF44B5581E6AC9F000243FEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44B5681E6AC9F000243FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF44B5711E6AC9F000243FEC /* GemNSOperationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF44B5731E6AC9F000243FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF44B57C1E6AC9F000243FEC /* GemNSOperationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF44B56E1E6AC9F000243FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF44B5521E6AC9F000243FEC /* GemNSOperationDemo */;
+			targetProxy = DF44B56D1E6AC9F000243FEC /* PBXContainerItemProxy */;
+		};
+		DF44B5791E6AC9F000243FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF44B5521E6AC9F000243FEC /* GemNSOperationDemo */;
+			targetProxy = DF44B5781E6AC9F000243FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF44B55F1E6AC9F000243FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF44B5601E6AC9F000243FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF44B5641E6AC9F000243FEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF44B5651E6AC9F000243FEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF44B57E1E6AC9F000243FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF44B57F1E6AC9F000243FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF44B5811E6AC9F000243FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemNSOperationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemNSOperationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF44B5821E6AC9F000243FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemNSOperationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemNSOperationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF44B5841E6AC9F000243FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemNSOperationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemNSOperationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemNSOperationDemo.app/GemNSOperationDemo";
+			};
+			name = Debug;
+		};
+		DF44B5851E6AC9F000243FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemNSOperationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemNSOperationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemNSOperationDemo.app/GemNSOperationDemo";
+			};
+			name = Release;
+		};
+		DF44B5871E6AC9F000243FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemNSOperationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemNSOperationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemNSOperationDemo;
+			};
+			name = Debug;
+		};
+		DF44B5881E6AC9F000243FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemNSOperationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemNSOperationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemNSOperationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF44B54E1E6AC9F000243FEC /* Build configuration list for PBXProject "GemNSOperationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF44B57E1E6AC9F000243FEC /* Debug */,
+				DF44B57F1E6AC9F000243FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF44B5801E6AC9F000243FEC /* Build configuration list for PBXNativeTarget "GemNSOperationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF44B5811E6AC9F000243FEC /* Debug */,
+				DF44B5821E6AC9F000243FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF44B5831E6AC9F000243FEC /* Build configuration list for PBXNativeTarget "GemNSOperationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF44B5841E6AC9F000243FEC /* Debug */,
+				DF44B5851E6AC9F000243FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF44B5861E6AC9F000243FEC /* Build configuration list for PBXNativeTarget "GemNSOperationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF44B5871E6AC9F000243FEC /* Debug */,
+				DF44B5881E6AC9F000243FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF44B54B1E6AC9F000243FEC /* Project object */;
+}
