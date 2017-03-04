@@ -18,18 +18,49 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    NSLog(@"%@",[NSThread mainThread]);
+    
 //    [self InvocationOperation];
     
 //    [self BlockOperation];
     
 //    [self OpertationQueue];
     
-    [self addDependency];
+//    [self addDependency];
+    
+    [self QueuePriority];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - 优先级
+-(void)QueuePriority
+{
+    NSOperationQueue *queue = [[NSOperationQueue alloc]init];
+    queue.maxConcurrentOperationCount = 1;
+    NSBlockOperation *blockOperation1 = [NSBlockOperation blockOperationWithBlock:^{
+        NSLog(@"1---%@",[NSThread currentThread]);
+    }];
+    NSBlockOperation *blockOperation2 = [NSBlockOperation blockOperationWithBlock:^{
+        NSLog(@"2---%@",[NSThread currentThread]);
+    }];
+    NSBlockOperation *blockOperation3 = [NSBlockOperation blockOperationWithBlock:^{
+        NSLog(@"3---%@",[NSThread currentThread]);
+    }];
+    NSBlockOperation *blockOperation4 = [NSBlockOperation blockOperationWithBlock:^{
+        NSLog(@"4---%@",[NSThread currentThread]);
+    }];
+    [queue addOperation:blockOperation1];
+    [queue addOperation:blockOperation2];
+    [queue addOperation:blockOperation3];
+    [queue addOperation:blockOperation4];
+    blockOperation1.queuePriority = NSOperationQueuePriorityVeryLow;
+    blockOperation2.queuePriority = NSOperationQueuePriorityNormal;
+    blockOperation3.queuePriority = NSOperationQueuePriorityHigh;
+    blockOperation4.queuePriority = NSOperationQueuePriorityVeryHigh;
 }
 
 #pragma mark - 这是添加依赖（最大的特点）
